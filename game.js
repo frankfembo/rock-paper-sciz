@@ -73,8 +73,8 @@ function youLose (userChoice, compuChoice) {
 }
 
 function drawGame (userChoice, compuChoice) {
-	userChoice.innerHTML = userScore;
-	compuChoice.innerHTML = compuScore;
+	userChoice.innerHTML = userScore
+	compuChoice.innerHTML = compuScore
 	resultDisplay.innerHTML = "ITS A DRAW!";
 }
 
